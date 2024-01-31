@@ -5,6 +5,7 @@
 <!--defines start of html and sets language to english-->
     <head> 
         <title>HTML notes</title>
+        
     </head> 
     <body>
         <main>
@@ -32,7 +33,26 @@
                 This is how you <em>italicise</em>
                 <!-- This adds a line break --><br>
                 This is how you <strong>bold</strong><br>
-                This is how you add a <a href="url">URL</a><br>
+                <!--This is how you change styles-->
+                <style>
+                    a:link{
+                        color:green;
+                    }
+                    a:visited{
+                        color:aqua;
+                    }
+                    a:hover{
+                        font-size: 20px;
+                    }
+                    a:active{
+                        font-weight: bold;
+                    }
+                    p:target{
+                        font-weight: bold;
+                    }
+                </style>
+                <p id="styleDemonstration">This is how you add a <a href="#styleDemonstration">URL</a></p><br>
+                <!--Can use #id in href to jump to element with that id-->
                 This is how you make text <small>smaller</small><br>
                 This is a Horizontal Rule:<hr>
             </p>
