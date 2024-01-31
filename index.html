@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<!--This defines the document as an html for readers-->
+
+<html lang="en"> 
+<!--defines start of html and sets language to english-->
+    <head> 
+        <title>HTML notes</title>
+    </head> 
+    <body>
+        <main>
+            <h1>This is a heading</h1>
+            <p>This is a paragraph</p>
+            <img src = "" alt="trophy">
+
+            <h3>This is an unordered list</h3>
+            <p>List items:</p2>
+            <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+            </ul>
+
+            <h3>This is an ordered list</h3>
+            <p>List items:</p>
+            <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+            </ol>
+
+            <h3>This is text formatting</h3>
+            <p>
+                This is how you <em>italicise</em>
+                <!-- This adds a line break --><br>
+                This is how you <strong>bold</strong><br>
+                This is how you add a <a href="url">URL</a><br>
+                This is how you make text <small>smaller</small>
+            </p>
+            <h3>This is how you add a form:</h3>
+            <form action = "/submit">
+                <label for="choice1"><input type="radio" name="choiceDescription" id="choice1">Choice 1</label>
+                <!--label allows users to click on the text to check the button-->
+                <!--name allows buttons to be grouped together so only one can be ticked-->
+
+                <label for="choice2"><input type="radio" name="choiceDescription" id="choice2">Choice 2</label>
+                <br>
+                <label for="checklist1"><input type="checkbox" name = checklistDescription id="Checklist1">Selection 1</label>
+                <label for="checklist2"><input type="checkbox" name = checklistDescription id="Checklist2">Selection 2</label>
+                <label for="checklist3"><input type="checkbox" name = checklistDescription id="Checklist3">Selection 3</label>
+                <!--Can add checked inside input for default to be checked-->
+                <br>
+                <input type = "text" placeholder="Prompt for input" required>
+                <button type ="submit">Button name</button>
+            </form>
+            <br>
+            <h3>This is a division</h3>
+            <div class="div1">
+                <p>This is a paragraph in div1</p>
+            </div>
+        </main>
+        <footer>
+            <p>This is the footer</p>
+        </footer>
+    </body> 
+</html>
